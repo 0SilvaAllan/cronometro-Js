@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 * {
-    font-family: 'Lato', 'sans-serif';
+    font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
-    box-sizing: boder-box;
+    box-sizing: border-box;
 }
 
 body {
-    background-image: url(./imagem.css/nuvem.jpg);
+    background-image: url('./imagem.css/nuvem.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -22,13 +22,12 @@ body {
 .container h1,
 .container p {
     color: rgb(171, 17, 99);
-    text-align:center;
+    text-align: center;
     padding: 20px 0;
 }
 
 .container h1 {
     font-size: 4em;
-
 }
 
 .container p {
@@ -40,7 +39,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-
 }
 
 .charts {
@@ -67,14 +65,12 @@ body {
     text-shadow: 1px 1px 10px #000;
 }
 
-/* div do circulo do fundo8*/
 .circle {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     z-index: 1;
     border: 10px #3f21ed solid;
-
 }
 
 .text {
@@ -84,14 +80,12 @@ body {
     font-size: 3.8em;
     font-weight: 700;
     color: #00da16;
-
 }
 
-/*svg circulo*/
 .outer {
     fill: transparent;
     stroke: #da4100;
     stroke-width: 10;
     stroke-dasharray: 439;
-    transform: rotate(270deg) translate(-150px.0);
+    transform: rotate(270deg) translate(-150px, 0);
 }
