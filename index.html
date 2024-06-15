@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cronometro</title>
+    <title>Cronômetro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,48 +17,42 @@
          
         <div class="charts">
 
-        <div class="chart" div class="chart">
-            <div class="circle center-abs"></div>
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <svg class="center-abs" width="150" height="150">
+                    <circle class="outer" cx="75" cy="75" r="70"></circle>
+                </svg>
+                <span class="text center-abs" id="dias"></span>
+                <h3>Dias</h3>
+            </div>
+
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <svg class="center-abs" width="150" height="150">
+                    <circle class="outer" cx="75" cy="75" r="70"></circle>
+                </svg>
+                <span class="text center-abs" id="horas"></span>
+                <h3>Horas</h3>
+            </div>
             
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <svg class="center-abs" width="150" height="150">
+                    <circle class="outer" cx="75" cy="75" r="70"></circle>
+                </svg>
+                <span class="text center-abs" id="minutos"></span>
+                <h3>Minutos</h3>
+            </div>
+
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <svg class="center-abs" width="150" height="150">
+                    <circle class="outer" cx="75" cy="75" r="70"></circle>
+                </svg>
+                <span class="text center-abs" id="segundos"></span>
+                <h3>Segundos</h3>
+            </div>
             
-            
-            <svg class="center-abs" width="150" height="150">
-                <circle class="outer" cx="75" cy="75" r="70">
-            </svg>
-            <span class="text center-abs" id="dias"></span>
-            <h3>Dias</h3>
-        </div>
-
-
-        <div class="chart">
-            <div class="circle center-abs"></div>
-
-            <!--area para SVG-->
-            <svg class="center-abs" width="150" height="150">
-                <circle class="outer" cx="75" cy="75" r="70">
-            </svg>
-            <span class="text center-abs" id="horas"></span>
-            <h3>Horas</h3>
-        </div>
-        
-        <div class="chart">
-
-        <div class="circle center-abs"></div>
-        <svg class="center-abs" width="150" height="150">
-            <circle class="outer" cx="75" cy="75" r="70">
-        </svg>
-        <span class="text center-abs" id="minutos"></span>
-        <h3>Minutos</h3>
-        </div>
-
-        <div class="chart">
-            <div class="circle center-abs"></div>
-            <svg class="center-abs" width="150" height="150">
-                <circle class="outer" cx="75" cy="75" r="70">
-            </svg>
-            <span class="text center-abs" id="segundos"></span>
-            <h3>Segundos</h3>
-        </div>
         </div>
     </section>
     <script src="cronometro.js"></script>
